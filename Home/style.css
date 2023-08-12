@@ -8,19 +8,34 @@
   display: flex;
   font-family: Oswald;
   list-style-type: none;
-  gap: 29px;
-  font-size: 25px;
-  letter-spacing: 2px;
+  gap: 55px;
+  font-size: 30px;
+  letter-spacing: 1px;
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 15px;
   color: rgba(0, 0, 0, 0.9);
 }
-.firstimg {
+a {
+  width: 25%;
+  padding: auto;
+  margin: 32px 0;
+  text-decoration: none;
+  color: #333;
+}
+.banner-img {
   background-image: url("/Image folder/bike\ 2.jpg");
   height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+}
+.bannertext {
+  position: relative;
+  top: 140px;
+  left: 35px;
+  color: #fff;
+  padding: 40px;
+  font-size: 50px;
 }
